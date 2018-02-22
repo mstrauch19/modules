@@ -22,11 +22,12 @@ class MetasploitModule < Msf::Auxiliary
     end
     def run_host(ip)
 	puts "running"
-        s = TCPSocket.open(rhost, rport)
-        if rhost is None or rport is None
+	if rhost is None or rport is None
             print_error("rhost or rport is not properly configured")
             return
         end
+        s = TCPSocket.open(rhost, rport)
+       
 	begin
             line = s.gets
 	rescue Exception => e
