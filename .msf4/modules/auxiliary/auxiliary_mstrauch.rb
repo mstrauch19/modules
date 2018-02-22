@@ -21,6 +21,7 @@ class MetasploitModule < Msf::Auxiliary
 	puts "found it"
     end
     def run_host(ip)
+	puts "running"
         s = TCPSocket.open(rhost, rport)
         if rhost is None or rport is None
             print_error("rhost or rport is not properly configured")
@@ -49,6 +50,7 @@ class MetasploitModule < Msf::Auxiliary
         else 
             print_status("#{rhost}:#{rport} is not vulnerable.")
 	    print "not vulnerable"
-        end 
+        end
+	s.close()	
     end
 end
