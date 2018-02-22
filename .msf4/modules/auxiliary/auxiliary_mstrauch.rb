@@ -1,6 +1,7 @@
 require 'socket'
-
+require 'msf/core/auxiliary/report'
 class MetasploitModule < Msf::Auxiliary
+    include Msf::Auxiliary::Report
 
     def initialize
         super(
@@ -15,9 +16,12 @@ class MetasploitModule < Msf::Auxiliary
 	      OptString.new('RPORT', [ true, 'Set a remote port' ])
             ], self.class)
     end
+    def run
+	print_good("this is what is used")
+	puts "found it"
+    end
     def run_host(ip)
-        s = TCPSocket.new rhost rport
-
+        s = TCPSocket.open(rhost, rport)
         if rhost is None or rport is None
             print_error("rhost or rport is not properly configured")
             return
@@ -25,11 +29,23 @@ class MetasploitModule < Msf::Auxiliary
 	begin
             line = s.gets
 	rescue Exception => e
-	    print_status("#{rhost}:#{rport} is vulnerable.")
+	    print_status("#{rhost}:#{rport} is not vulnerable.")
 	    puts "No vulnerability detected"
 	end
         if line =~ /BockServe 2.0a/
-            print_status("#{rhost}:#{rport} is vulnerable.")
+	    s.send("view")
+	    while s.gets
+		x = 5
+	    end
+	    s.send("yes")
+	    s.gets
+	    s.send("print hi")
+	    line = s.gets
+	    if line =~ /(python -c) | (hi)/
+    	        print_status("#{rhost}:#{rport} is vulnerable.")
+	    else
+		print_status("not vulnerable")
+	    end
         else 
             print_status("#{rhost}:#{rport} is not vulnerable.")
 	    print "not vulnerable"
