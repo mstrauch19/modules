@@ -1,0 +1,287 @@
+[02/21/2018 14:22:00] [e(0)] core: Unexpected output running /usr/share/metasploit-framework/modules/auxiliary/scanner/ssl/bleichenbacher_oracle.py:
+Traceback (most recent call last):
+  File "/usr/share/metasploit-framework/modules/auxiliary/scanner/ssl/bleichenbacher_oracle.py", line 12, in <module>
+    import gmpy2
+ModuleNotFoundError: No module named 'gmpy2'
+
+[02/21/2018 14:22:00] [e(0)] core: Unable to load module /usr/share/metasploit-framework/modules/auxiliary/scanner/ssl/bleichenbacher_oracle.py NoMethodError undefined method `params' for nil:NilClass
+[02/21/2018 14:22:00] [e(0)] core: /root/.msf4/modules/exploits/exploit_mstrauch.rb failed to load due to the following error:
+SyntaxError
+/root/.msf4/modules/exploits/exploit_mstrauch.rb:28: syntax error, unexpected tIDENTIFIER, expecting ')'
+                print_error("This is not BockServe 2.0a")
+                           ^
+Call stack:
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/base.rb:50:in `module_eval'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/base.rb:50:in `module_eval_with_lexical_scope'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/base.rb:139:in `block in load_module'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/base.rb:540:in `namespace_module_transaction'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/base.rb:176:in `load_module'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/base.rb:238:in `block in load_modules'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/directory.rb:50:in `block (2 levels) in each_module_reference_name'
+/usr/share/metasploit-framework/vendor/bundle/ruby/2.3.0/gems/rex-core-0.1.12/lib/rex/file.rb:133:in `block in find'
+/usr/share/metasploit-framework/vendor/bundle/ruby/2.3.0/gems/rex-core-0.1.12/lib/rex/file.rb:132:in `catch'
+/usr/share/metasploit-framework/vendor/bundle/ruby/2.3.0/gems/rex-core-0.1.12/lib/rex/file.rb:132:in `find'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/directory.rb:40:in `block in each_module_reference_name'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/directory.rb:30:in `foreach'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/directory.rb:30:in `each_module_reference_name'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/base.rb:237:in `load_modules'
+/usr/share/metasploit-framework/lib/msf/core/module_manager/loading.rb:119:in `block in load_modules'
+/usr/share/metasploit-framework/lib/msf/core/module_manager/loading.rb:117:in `each'
+/usr/share/metasploit-framework/lib/msf/core/module_manager/loading.rb:117:in `load_modules'
+/usr/share/metasploit-framework/lib/msf/core/module_manager/module_paths.rb:41:in `block in add_module_path'
+/usr/share/metasploit-framework/lib/msf/core/module_manager/module_paths.rb:40:in `each'
+/usr/share/metasploit-framework/lib/msf/core/module_manager/module_paths.rb:40:in `add_module_path'
+/usr/share/metasploit-framework/lib/msf/base/simple/framework/module_paths.rb:50:in `block in init_module_paths'
+/usr/share/metasploit-framework/lib/msf/base/simple/framework/module_paths.rb:49:in `each'
+/usr/share/metasploit-framework/lib/msf/base/simple/framework/module_paths.rb:49:in `init_module_paths'
+/usr/share/metasploit-framework/lib/msf/ui/console/driver.rb:196:in `initialize'
+/usr/share/metasploit-framework/lib/metasploit/framework/command/console.rb:62:in `new'
+/usr/share/metasploit-framework/lib/metasploit/framework/command/console.rb:62:in `driver'
+/usr/share/metasploit-framework/lib/metasploit/framework/command/console.rb:48:in `start'
+/usr/share/metasploit-framework/lib/metasploit/framework/command/base.rb:82:in `start'
+/usr/bin/msfconsole:48:in `<main>'
+[02/21/2018 14:22:25] [e(0)] core: Unexpected output running /usr/share/metasploit-framework/modules/auxiliary/scanner/ssl/bleichenbacher_oracle.py:
+Traceback (most recent call last):
+  File "/usr/share/metasploit-framework/modules/auxiliary/scanner/ssl/bleichenbacher_oracle.py", line 12, in <module>
+    import gmpy2
+ModuleNotFoundError: No module named 'gmpy2'
+
+[02/21/2018 14:22:25] [e(0)] core: Unable to load module /usr/share/metasploit-framework/modules/auxiliary/scanner/ssl/bleichenbacher_oracle.py NoMethodError undefined method `params' for nil:NilClass
+[02/21/2018 14:22:25] [e(0)] core: /root/.msf4/modules/exploits/exploit_mstrauch.rb failed to load due to the following error:
+SyntaxError
+/root/.msf4/modules/exploits/exploit_mstrauch.rb:28: syntax error, unexpected tIDENTIFIER, expecting ')'
+                print_error("This is not BockServe 2.0a")
+                           ^
+Call stack:
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/base.rb:50:in `module_eval'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/base.rb:50:in `module_eval_with_lexical_scope'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/base.rb:139:in `block in load_module'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/base.rb:540:in `namespace_module_transaction'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/base.rb:176:in `load_module'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/base.rb:238:in `block in load_modules'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/directory.rb:50:in `block (2 levels) in each_module_reference_name'
+/usr/share/metasploit-framework/vendor/bundle/ruby/2.3.0/gems/rex-core-0.1.12/lib/rex/file.rb:133:in `block in find'
+/usr/share/metasploit-framework/vendor/bundle/ruby/2.3.0/gems/rex-core-0.1.12/lib/rex/file.rb:132:in `catch'
+/usr/share/metasploit-framework/vendor/bundle/ruby/2.3.0/gems/rex-core-0.1.12/lib/rex/file.rb:132:in `find'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/directory.rb:40:in `block in each_module_reference_name'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/directory.rb:30:in `foreach'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/directory.rb:30:in `each_module_reference_name'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/base.rb:237:in `load_modules'
+/usr/share/metasploit-framework/lib/msf/core/module_manager/loading.rb:119:in `block in load_modules'
+/usr/share/metasploit-framework/lib/msf/core/module_manager/loading.rb:117:in `each'
+/usr/share/metasploit-framework/lib/msf/core/module_manager/loading.rb:117:in `load_modules'
+/usr/share/metasploit-framework/lib/msf/core/module_manager/reloading.rb:34:in `block in reload_modules'
+/usr/share/metasploit-framework/lib/msf/core/module_manager/reloading.rb:33:in `each'
+/usr/share/metasploit-framework/lib/msf/core/module_manager/reloading.rb:33:in `reload_modules'
+/usr/share/metasploit-framework/lib/msf/ui/console/command_dispatcher/modules.rb:802:in `cmd_reload_all'
+/usr/share/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:548:in `run_command'
+/usr/share/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:510:in `block in run_single'
+/usr/share/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:504:in `each'
+/usr/share/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:504:in `run_single'
+/usr/share/metasploit-framework/lib/rex/ui/text/shell.rb:206:in `run'
+/usr/share/metasploit-framework/lib/metasploit/framework/command/console.rb:48:in `start'
+/usr/share/metasploit-framework/lib/metasploit/framework/command/base.rb:82:in `start'
+/usr/bin/msfconsole:48:in `<main>'
+[02/21/2018 14:28:17] [e(0)] core: Unexpected output running /usr/share/metasploit-framework/modules/auxiliary/scanner/ssl/bleichenbacher_oracle.py:
+Traceback (most recent call last):
+  File "/usr/share/metasploit-framework/modules/auxiliary/scanner/ssl/bleichenbacher_oracle.py", line 12, in <module>
+    import gmpy2
+ModuleNotFoundError: No module named 'gmpy2'
+
+[02/21/2018 14:28:17] [e(0)] core: Unable to load module /usr/share/metasploit-framework/modules/auxiliary/scanner/ssl/bleichenbacher_oracle.py NoMethodError undefined method `params' for nil:NilClass
+[02/21/2018 14:28:18] [e(0)] core: /root/.msf4/modules/exploits/exploit_mstrauch.rb failed to load due to the following error:
+Errno::ENOENT
+No such file or directory @ rb_sysopen - /root/.msf4/modules/exploits/exploit_mstrauch.rb
+Call stack:
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/directory.rb:78:in `initialize'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/directory.rb:78:in `open'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/directory.rb:78:in `read_module_content'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/base.rb:126:in `load_module'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/base.rb:238:in `block in load_modules'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/directory.rb:50:in `block (2 levels) in each_module_reference_name'
+/usr/share/metasploit-framework/vendor/bundle/ruby/2.3.0/gems/rex-core-0.1.12/lib/rex/file.rb:133:in `block in find'
+/usr/share/metasploit-framework/vendor/bundle/ruby/2.3.0/gems/rex-core-0.1.12/lib/rex/file.rb:132:in `catch'
+/usr/share/metasploit-framework/vendor/bundle/ruby/2.3.0/gems/rex-core-0.1.12/lib/rex/file.rb:132:in `find'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/directory.rb:40:in `block in each_module_reference_name'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/directory.rb:30:in `foreach'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/directory.rb:30:in `each_module_reference_name'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/base.rb:237:in `load_modules'
+/usr/share/metasploit-framework/lib/msf/core/module_manager/loading.rb:119:in `block in load_modules'
+/usr/share/metasploit-framework/lib/msf/core/module_manager/loading.rb:117:in `each'
+/usr/share/metasploit-framework/lib/msf/core/module_manager/loading.rb:117:in `load_modules'
+/usr/share/metasploit-framework/lib/msf/core/module_manager/module_paths.rb:41:in `block in add_module_path'
+/usr/share/metasploit-framework/lib/msf/core/module_manager/module_paths.rb:40:in `each'
+/usr/share/metasploit-framework/lib/msf/core/module_manager/module_paths.rb:40:in `add_module_path'
+/usr/share/metasploit-framework/lib/msf/base/simple/framework/module_paths.rb:50:in `block in init_module_paths'
+/usr/share/metasploit-framework/lib/msf/base/simple/framework/module_paths.rb:49:in `each'
+/usr/share/metasploit-framework/lib/msf/base/simple/framework/module_paths.rb:49:in `init_module_paths'
+/usr/share/metasploit-framework/lib/msf/ui/console/driver.rb:196:in `initialize'
+/usr/share/metasploit-framework/lib/metasploit/framework/command/console.rb:62:in `new'
+/usr/share/metasploit-framework/lib/metasploit/framework/command/console.rb:62:in `driver'
+/usr/share/metasploit-framework/lib/metasploit/framework/command/console.rb:48:in `start'
+/usr/share/metasploit-framework/lib/metasploit/framework/command/base.rb:82:in `start'
+/usr/bin/msfconsole:48:in `<main>'
+[02/21/2018 14:28:31] [e(0)] core: Unexpected output running /usr/share/metasploit-framework/modules/auxiliary/scanner/ssl/bleichenbacher_oracle.py:
+Traceback (most recent call last):
+  File "/usr/share/metasploit-framework/modules/auxiliary/scanner/ssl/bleichenbacher_oracle.py", line 12, in <module>
+    import gmpy2
+ModuleNotFoundError: No module named 'gmpy2'
+
+[02/21/2018 14:28:32] [e(0)] core: Unable to load module /usr/share/metasploit-framework/modules/auxiliary/scanner/ssl/bleichenbacher_oracle.py NoMethodError undefined method `params' for nil:NilClass
+[02/21/2018 14:28:32] [e(0)] core: /root/.msf4/modules/exploits/exploit_mstrauch.rb failed to load due to the following error:
+Errno::ENOENT
+No such file or directory @ rb_sysopen - /root/.msf4/modules/exploits/exploit_mstrauch.rb
+Call stack:
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/directory.rb:78:in `initialize'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/directory.rb:78:in `open'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/directory.rb:78:in `read_module_content'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/base.rb:126:in `load_module'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/base.rb:238:in `block in load_modules'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/directory.rb:50:in `block (2 levels) in each_module_reference_name'
+/usr/share/metasploit-framework/vendor/bundle/ruby/2.3.0/gems/rex-core-0.1.12/lib/rex/file.rb:133:in `block in find'
+/usr/share/metasploit-framework/vendor/bundle/ruby/2.3.0/gems/rex-core-0.1.12/lib/rex/file.rb:132:in `catch'
+/usr/share/metasploit-framework/vendor/bundle/ruby/2.3.0/gems/rex-core-0.1.12/lib/rex/file.rb:132:in `find'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/directory.rb:40:in `block in each_module_reference_name'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/directory.rb:30:in `foreach'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/directory.rb:30:in `each_module_reference_name'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/base.rb:237:in `load_modules'
+/usr/share/metasploit-framework/lib/msf/core/module_manager/loading.rb:119:in `block in load_modules'
+/usr/share/metasploit-framework/lib/msf/core/module_manager/loading.rb:117:in `each'
+/usr/share/metasploit-framework/lib/msf/core/module_manager/loading.rb:117:in `load_modules'
+/usr/share/metasploit-framework/lib/msf/core/module_manager/reloading.rb:34:in `block in reload_modules'
+/usr/share/metasploit-framework/lib/msf/core/module_manager/reloading.rb:33:in `each'
+/usr/share/metasploit-framework/lib/msf/core/module_manager/reloading.rb:33:in `reload_modules'
+/usr/share/metasploit-framework/lib/msf/ui/console/command_dispatcher/modules.rb:802:in `cmd_reload_all'
+/usr/share/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:548:in `run_command'
+/usr/share/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:510:in `block in run_single'
+/usr/share/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:504:in `each'
+/usr/share/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:504:in `run_single'
+/usr/share/metasploit-framework/lib/rex/ui/text/shell.rb:206:in `run'
+/usr/share/metasploit-framework/lib/metasploit/framework/command/console.rb:48:in `start'
+/usr/share/metasploit-framework/lib/metasploit/framework/command/base.rb:82:in `start'
+/usr/bin/msfconsole:48:in `<main>'
+[02/21/2018 14:35:01] [e(0)] core: Unexpected output running /usr/share/metasploit-framework/modules/auxiliary/scanner/ssl/bleichenbacher_oracle.py:
+Traceback (most recent call last):
+  File "/usr/share/metasploit-framework/modules/auxiliary/scanner/ssl/bleichenbacher_oracle.py", line 12, in <module>
+    import gmpy2
+ModuleNotFoundError: No module named 'gmpy2'
+
+[02/21/2018 14:35:01] [e(0)] core: Unable to load module /usr/share/metasploit-framework/modules/auxiliary/scanner/ssl/bleichenbacher_oracle.py NoMethodError undefined method `params' for nil:NilClass
+[02/21/2018 14:35:02] [e(0)] core: /root/.msf4/modules/exploits/exploit_mstrauch.rb failed to load due to the following error:
+SyntaxError
+/root/.msf4/modules/exploits/exploit_mstrauch.rb:28: syntax error, unexpected tIDENTIFIER, expecting ')'
+            print_error("This is not BockServe 2.0a")
+                       ^
+/root/.msf4/modules/exploits/exploit_mstrauch.rb:38: syntax error, unexpected keyword_end, expecting end-of-input
+Call stack:
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/base.rb:50:in `module_eval'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/base.rb:50:in `module_eval_with_lexical_scope'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/base.rb:139:in `block in load_module'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/base.rb:540:in `namespace_module_transaction'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/base.rb:176:in `load_module'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/base.rb:238:in `block in load_modules'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/directory.rb:50:in `block (2 levels) in each_module_reference_name'
+/usr/share/metasploit-framework/vendor/bundle/ruby/2.3.0/gems/rex-core-0.1.12/lib/rex/file.rb:133:in `block in find'
+/usr/share/metasploit-framework/vendor/bundle/ruby/2.3.0/gems/rex-core-0.1.12/lib/rex/file.rb:132:in `catch'
+/usr/share/metasploit-framework/vendor/bundle/ruby/2.3.0/gems/rex-core-0.1.12/lib/rex/file.rb:132:in `find'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/directory.rb:40:in `block in each_module_reference_name'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/directory.rb:30:in `foreach'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/directory.rb:30:in `each_module_reference_name'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/base.rb:237:in `load_modules'
+/usr/share/metasploit-framework/lib/msf/core/module_manager/loading.rb:119:in `block in load_modules'
+/usr/share/metasploit-framework/lib/msf/core/module_manager/loading.rb:117:in `each'
+/usr/share/metasploit-framework/lib/msf/core/module_manager/loading.rb:117:in `load_modules'
+/usr/share/metasploit-framework/lib/msf/core/module_manager/module_paths.rb:41:in `block in add_module_path'
+/usr/share/metasploit-framework/lib/msf/core/module_manager/module_paths.rb:40:in `each'
+/usr/share/metasploit-framework/lib/msf/core/module_manager/module_paths.rb:40:in `add_module_path'
+/usr/share/metasploit-framework/lib/msf/base/simple/framework/module_paths.rb:50:in `block in init_module_paths'
+/usr/share/metasploit-framework/lib/msf/base/simple/framework/module_paths.rb:49:in `each'
+/usr/share/metasploit-framework/lib/msf/base/simple/framework/module_paths.rb:49:in `init_module_paths'
+/usr/share/metasploit-framework/lib/msf/ui/console/driver.rb:196:in `initialize'
+/usr/share/metasploit-framework/lib/metasploit/framework/command/console.rb:62:in `new'
+/usr/share/metasploit-framework/lib/metasploit/framework/command/console.rb:62:in `driver'
+/usr/share/metasploit-framework/lib/metasploit/framework/command/console.rb:48:in `start'
+/usr/share/metasploit-framework/lib/metasploit/framework/command/base.rb:82:in `start'
+/usr/bin/msfconsole:48:in `<main>'
+[02/21/2018 14:36:21] [e(0)] core: Unexpected output running /usr/share/metasploit-framework/modules/auxiliary/scanner/ssl/bleichenbacher_oracle.py:
+Traceback (most recent call last):
+  File "/usr/share/metasploit-framework/modules/auxiliary/scanner/ssl/bleichenbacher_oracle.py", line 12, in <module>
+    import gmpy2
+ModuleNotFoundError: No module named 'gmpy2'
+
+[02/21/2018 14:36:21] [e(0)] core: Unable to load module /usr/share/metasploit-framework/modules/auxiliary/scanner/ssl/bleichenbacher_oracle.py NoMethodError undefined method `params' for nil:NilClass
+[02/21/2018 14:36:21] [e(0)] core: /root/.msf4/modules/exploits/exploit_mstrauch.rb failed to load due to the following error:
+SyntaxError
+/root/.msf4/modules/exploits/exploit_mstrauch.rb:28: syntax error, unexpected tIDENTIFIER, expecting ')'
+            print_error("This is not BockServe 2.0a")
+                       ^
+/root/.msf4/modules/exploits/exploit_mstrauch.rb:38: syntax error, unexpected keyword_end, expecting end-of-input
+Call stack:
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/base.rb:50:in `module_eval'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/base.rb:50:in `module_eval_with_lexical_scope'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/base.rb:139:in `block in load_module'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/base.rb:540:in `namespace_module_transaction'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/base.rb:176:in `load_module'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/base.rb:238:in `block in load_modules'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/directory.rb:50:in `block (2 levels) in each_module_reference_name'
+/usr/share/metasploit-framework/vendor/bundle/ruby/2.3.0/gems/rex-core-0.1.12/lib/rex/file.rb:133:in `block in find'
+/usr/share/metasploit-framework/vendor/bundle/ruby/2.3.0/gems/rex-core-0.1.12/lib/rex/file.rb:132:in `catch'
+/usr/share/metasploit-framework/vendor/bundle/ruby/2.3.0/gems/rex-core-0.1.12/lib/rex/file.rb:132:in `find'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/directory.rb:40:in `block in each_module_reference_name'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/directory.rb:30:in `foreach'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/directory.rb:30:in `each_module_reference_name'
+/usr/share/metasploit-framework/lib/msf/core/modules/loader/base.rb:237:in `load_modules'
+/usr/share/metasploit-framework/lib/msf/core/module_manager/loading.rb:119:in `block in load_modules'
+/usr/share/metasploit-framework/lib/msf/core/module_manager/loading.rb:117:in `each'
+/usr/share/metasploit-framework/lib/msf/core/module_manager/loading.rb:117:in `load_modules'
+/usr/share/metasploit-framework/lib/msf/core/module_manager/reloading.rb:34:in `block in reload_modules'
+/usr/share/metasploit-framework/lib/msf/core/module_manager/reloading.rb:33:in `each'
+/usr/share/metasploit-framework/lib/msf/core/module_manager/reloading.rb:33:in `reload_modules'
+/usr/share/metasploit-framework/lib/msf/ui/console/command_dispatcher/modules.rb:802:in `cmd_reload_all'
+/usr/share/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:548:in `run_command'
+/usr/share/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:510:in `block in run_single'
+/usr/share/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:504:in `each'
+/usr/share/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:504:in `run_single'
+/usr/share/metasploit-framework/lib/rex/ui/text/shell.rb:206:in `run'
+/usr/share/metasploit-framework/lib/metasploit/framework/command/console.rb:48:in `start'
+/usr/share/metasploit-framework/lib/metasploit/framework/command/base.rb:82:in `start'
+/usr/bin/msfconsole:48:in `<main>'
+[02/21/2018 14:50:58] [e(0)] core: Unable to load module /usr/share/metasploit-framework/modules/auxiliary/scanner/ssl/bleichenbacher_oracle.py Errno::EPIPE Broken pipe
+[02/21/2018 14:51:11] [e(0)] core: Unexpected output running /usr/share/metasploit-framework/modules/auxiliary/scanner/ssl/bleichenbacher_oracle.py:
+Traceback (most recent call last):
+  File "/usr/share/metasploit-framework/modules/auxiliary/scanner/ssl/bleichenbacher_oracle.py", line 12, in <module>
+    import gmpy2
+ModuleNotFoundError: No module named 'gmpy2'
+
+[02/21/2018 14:51:11] [e(0)] core: Unable to load module /usr/share/metasploit-framework/modules/auxiliary/scanner/ssl/bleichenbacher_oracle.py NoMethodError undefined method `params' for nil:NilClass
+[02/21/2018 14:53:29] [e(0)] core: Unexpected output running /usr/share/metasploit-framework/modules/auxiliary/scanner/ssl/bleichenbacher_oracle.py:
+Traceback (most recent call last):
+  File "/usr/share/metasploit-framework/modules/auxiliary/scanner/ssl/bleichenbacher_oracle.py", line 12, in <module>
+    import gmpy2
+ModuleNotFoundError: No module named 'gmpy2'
+
+[02/21/2018 14:53:29] [e(0)] core: Unable to load module /usr/share/metasploit-framework/modules/auxiliary/scanner/ssl/bleichenbacher_oracle.py NoMethodError undefined method `params' for nil:NilClass
+[02/21/2018 14:53:44] [e(0)] core: Unexpected output running /usr/share/metasploit-framework/modules/auxiliary/scanner/ssl/bleichenbacher_oracle.py:
+Traceback (most recent call last):
+  File "/usr/share/metasploit-framework/modules/auxiliary/scanner/ssl/bleichenbacher_oracle.py", line 12, in <module>
+    import gmpy2
+ModuleNotFoundError: No module named 'gmpy2'
+
+[02/21/2018 14:53:44] [e(0)] core: Unable to load module /usr/share/metasploit-framework/modules/auxiliary/scanner/ssl/bleichenbacher_oracle.py NoMethodError undefined method `params' for nil:NilClass
+[02/21/2018 20:18:13] [e(0)] core: Unexpected output running /usr/share/metasploit-framework/modules/auxiliary/scanner/ssl/bleichenbacher_oracle.py:
+Traceback (most recent call last):
+  File "/usr/share/metasploit-framework/modules/auxiliary/scanner/ssl/bleichenbacher_oracle.py", line 12, in <module>
+    import gmpy2
+ModuleNotFoundError: No module named 'gmpy2'
+
+[02/21/2018 20:18:13] [e(0)] core: Unable to load module /usr/share/metasploit-framework/modules/auxiliary/scanner/ssl/bleichenbacher_oracle.py NoMethodError undefined method `params' for nil:NilClass
+[02/21/2018 20:18:56] [e(0)] core: Unexpected output running /usr/share/metasploit-framework/modules/auxiliary/scanner/ssl/bleichenbacher_oracle.py:
+Traceback (most recent call last):
+  File "/usr/share/metasploit-framework/modules/auxiliary/scanner/ssl/bleichenbacher_oracle.py", line 12, in <module>
+    import gmpy2
+ModuleNotFoundError: No module named 'gmpy2'
+
+[02/21/2018 20:18:56] [e(0)] core: Unable to load module /usr/share/metasploit-framework/modules/auxiliary/scanner/ssl/bleichenbacher_oracle.py NoMethodError undefined method `params' for nil:NilClass
+[02/21/2018 20:23:24] [e(0)] core: Exploit failed (exploit_mstrauch): A payload has not been selected.
+[02/21/2018 20:24:45] [e(0)] core: Exploit failed (exploit_mstrauch): The following options failed to validate: LHOST.
+[02/21/2018 20:25:32] [e(0)] core: Exploit failed (exploit_mstrauch): An invalid argument was specified. Invalid target index.
