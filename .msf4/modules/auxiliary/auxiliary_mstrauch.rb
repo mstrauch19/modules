@@ -1,7 +1,9 @@
 require 'socket'
-require 'msf/core/auxiliary/report'
+require 'msf/core'
 class MetasploitModule < Msf::Auxiliary
     include Msf::Auxiliary::Report
+    include Msf::Exploit::MSSQL
+    include Msf::Auxiliary::Scanner
 
     def initialize
         super(
@@ -15,10 +17,6 @@ class MetasploitModule < Msf::Auxiliary
               OptString.new('RHOST', [ true, 'Set a remote host' ]),
 	      OptString.new('RPORT', [ true, 'Set a remote port' ])
             ], self.class)
-    end
-    def run
-	print_good("this is what is used")
-	puts "found it"
     end
     def run_host(ip)
 	puts "running"
