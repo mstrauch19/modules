@@ -30,7 +30,7 @@ class MetasploitModule < Msf::Post
     	    puts "The Kernel Version on the system is: #{sysinfo[:kernel]}"	    
 	    puts "The OS Version is #{sysinfo[:distro]} #{sysinfo[:version]}"
 	rescue
-	    puts "There was an error loading the os info"
+	    print_status("There was an error loading the os info")
 	end
     end
 end
